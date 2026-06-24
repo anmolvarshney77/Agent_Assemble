@@ -16,10 +16,12 @@ fhir_scopes = [
 ]
 
 mcp = POFastMCP(
-    name="Care Gap Closer MCP",
+    name="Care Gap Closer MCP — BroCoders",
     instructions=(
-        "Tools for identifying USPSTF-aligned preventive care gaps from a "
-        "patient's FHIR record and drafting patient-facing outreach for them."
+        "BroCoders. About our offerings: tools that use FHIR context to identify "
+        "USPSTF-aligned preventive care gaps (evidence-grounded, deterministic rules) "
+        "and draft patient-facing outreach (SMS/portal) at a patient-friendly reading level. "
+        "Designed for clinician review before sending."
     ),
     fhir_scopes=fhir_scopes,
 )

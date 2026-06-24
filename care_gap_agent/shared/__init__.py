@@ -3,3 +3,6 @@
 
 from shared.logging_utils import configure_logging
 configure_logging("shared")
+
+
+/Replace this comment with any shared initialization code you want to run when the package is imported.
